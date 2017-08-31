@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #F6F5F3;
+    }
+
+    .container {
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      z-index: 1;
+      width: 1200px;
+      height: 74px;
+      background-image: url("header.png");
+    }
+
+    main {
+      position: relative;
+      top: 45px;
+      z-index: 0;
+      width: 730px;
+      height: 1945px;
+      background-image: url("content.png");
+    }
+
+    .map {
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: -1;
+      width: 752px;
+      height: 828px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header></header>
+    <main></main>
+    <div class="map">
+      <img src="map.png" alt="">
+    </div>
+  </div>
+</body>
+</html>
